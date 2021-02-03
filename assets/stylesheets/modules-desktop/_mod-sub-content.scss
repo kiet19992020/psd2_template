@@ -1,0 +1,92 @@
+@include media-breakpoint-up(lg) {
+  .mod-sub-content {
+    max-width: 485px;
+    background-color: rgb(255, 255, 255);
+    height: 244px;
+    position: absolute;
+    border-radius:5px;
+    text-align: center;
+    left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    box-shadow:0px 5px 0px 0px #51c03d;
+
+    .sub-img {
+
+      .child-1 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub1.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-2 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub10.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-3 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub2.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-4 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub3.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+
+      .child-5 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub4.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-6 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub5.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-7 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub6.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-8 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub7.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-9 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub8.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+      .child-10 {
+        padding-top: 50px;
+        background-image: url("../images/img_sub9.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+
+      }
+    }
+  }
+}
+

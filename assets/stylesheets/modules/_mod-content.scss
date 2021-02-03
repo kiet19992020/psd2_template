@@ -1,0 +1,20 @@
+@include media-breakpoint-down(lg) {
+  .mod-content {
+    text-align: center;
+    min-height: 200px;
+    background-color:$white;
+    .content-title {
+      padding-top: 50px;
+    }
+    .content-contact {
+      max-width: 100%;
+      img {
+        @include sizeEx(50px,50px);
+        max-width: 100%;
+      }
+      span {
+        display: none;
+      }
+    }
+}
+}

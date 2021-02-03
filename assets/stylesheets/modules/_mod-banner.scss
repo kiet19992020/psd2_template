@@ -1,0 +1,30 @@
+// module 'Mod Banner'
+
+@include media-breakpoint-down(lg) {
+  .mod-banner {
+    background-image: url("../images/banner-img.png");
+    min-height: 534px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    @include background-size(cover);
+    background-color: rgb(129, 119, 119);
+    position: relative;
+    background-attachment: fixed;
+
+    .content-banner {
+      justify-content: center;
+      color: $white;
+      > button {
+        background-color: #58c544;
+        color:$white;
+        border: 5px solid #4694bf;
+        border-radius: 10px;
+        letter-spacing: 5px;
+        padding: 5px 30px;
+
+      }
+
+    }
+  }
+}
