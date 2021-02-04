@@ -1,17 +1,21 @@
 // module 'Mod Banner'
 
-@include media-breakpoint-down(lg) {
+@include media-breakpoint-down(md) {
   .mod-banner {
     background-image: url("../images/banner-img.png");
-    min-height: 534px;
+    min-height: 390px;
     display: flex;
     align-items: center;
     text-align: center;
     @include background-size(cover);
     background-color: rgb(129, 119, 119);
     position: relative;
-    background-attachment: fixed;
-
+    h1 {
+      @include font($sm,25px,$white,600);
+    }
+    h2 {
+      @include font($sm,20px,$white,600);
+    }
     .content-banner {
       justify-content: center;
       color: $white;

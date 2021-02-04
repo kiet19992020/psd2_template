@@ -1,18 +1,25 @@
 @include media-breakpoint-up(lg) {
   .mod-sub-content {
-    max-width: 485px;
+    max-width: 483px;
     background-color: rgb(255, 255, 255);
-    height: 244px;
+    height: 242px;
     position: absolute;
     border-radius:5px;
     text-align: center;
     left: 50%;
     display: flex;
     flex-wrap: wrap;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -37%);
     align-items: center;
     box-shadow:0px 5px 0px 0px #51c03d;
-
+    padding: 0px 25px 0px 25px;
+    span {
+      @include font($sm,14.35px,$gray-900,300);
+   
+    }
+    h3 {
+      @include font($sm,22.35px,$gray-900,300)
+    }
     .sub-img {
 
       .child-1 {

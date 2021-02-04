@@ -5,9 +5,23 @@
     background-color:rgb(236, 236, 236);
     .content-title {
       padding-top: 200px;
+      h2 {
+        @include font($sm,26.5px,$black,300);
+
+      }
+      h3 {
+        margin-top: -15px;
+        @include font($sm,22.5px,$black,300);
+
+      }
+
     }
     .content-contact {
-      margin: 105px;
+      padding: 31px 117px 0 83px;
+      margin-left: 82px;
+      span {
+        @include font($sm,20.5px,$black,300);
+      }
     }
 }
 }

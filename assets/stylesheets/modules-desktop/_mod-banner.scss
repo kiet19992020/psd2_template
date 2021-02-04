@@ -1,4 +1,4 @@
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(md) {
   .mod-banner {
     background-image: url("../images/banner-img.png");
     min-height: 534px;
@@ -10,23 +10,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
     h1 {
-      @include font ($sm,52.35px,$white,bold);
+      @include font ($sm,52.35px,$white,600);
     }
     h2 {
-      @include font ($sm,48.35px,$white)
+      @include font ($sm,49.5px,$white,300);
+      margin-top: -26px;
     }
     .content-banner {
       justify-content: center;
       color: white;
       > button {
+        @include font($sm,34.35px,$white,600);
         background-color: #58c544;
         color: white;
         border: 5px solid #4694bf;
         border-radius: 10px;
-        letter-spacing: 5px;
-        padding: 5px 30px;
-        transition: all 0.5s;
+        padding: 0px 53px;
+
         cursor: pointer;
       }
     }
